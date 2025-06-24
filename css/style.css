@@ -93,6 +93,7 @@ a:hover, a:active, a:focus {
 
 p {
   margin-bottom: 20px;
+
 }
 
 h1, h2, h3, h4, h5, h6, figure {
@@ -251,7 +252,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -668,13 +669,13 @@ input[type="text"] {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
 }
 .fh5co-social-icons li a {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  display: inline;
   color: #F95959;
   padding-left: 10px;
   padding-right: 10px;
@@ -1217,69 +1218,7 @@ input[type="text"] {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
 
-/* estilos para la radio transmicion
-.audio-stream-link {
-    color: #F95959; 
-    text-decoration: none; /* Quita el subrayado predeterminado 
-    font-weight: bold; /* Hace el texto en negrita 
-    padding: 5px 5px; /* Añade espacio alrededor del texto 
-    border: 2px solid #874040; /* Borde alrededor del enlace 
-    border-radius: 5px; /* Bordes ligeramente redondeados 
-    background-color: #e8f5e9; /* Fondo suave 
-}
-
-/* Estilos al pasar el ratón por encima (hover) 
-.audio-stream-link:hover {
-    background-color: #F95959;
-    color: white;
-    cursor: pointer; /* Cambia el cursor a una manita 
-}
-
-/* Estilos cuando el enlace está activo (haciendo click) 
-.audio-stream-link:active {
-    background-color: #F95959;
-    border-color: #F95959;
-}
-
-
-
-
-
-.audio-stream-link i {
-    margin-right: 8px; /* Espacio entre el ícono y el texto 
-    color: #FFC107; /* Color para el ícono (amarillo) 
-}
-
-.audio-stream-link:hover i {
-    color: white; /* Cambia el color del ícono en hover 
-}
-
-.audio-stream-link::before {
-    content: "\1F50A"; /* Código Unicode para el ícono de altavoz 
-    margin-right: 8px;
-    font-size: 1.1em; /* Un poco más grande que el texto 
-}
-
-/* También puedes usar un ícono de flecha para indicar que es un enlace externo o de reproducción */
-/* .audio-stream-link::after {
-    content: "\25B6"; /* Código Unicode para un triángulo de reproducción */
-    /* margin-left: 5px;
-    font-size: 0.8em;
-    vertical-align: middle;
-} 
-
-.audio-stream-link {
-    /* ... otros estilos ... 
-    transition: all 0.3s ease; /* Transición suave para todos los cambios de propiedades 
-}
-
-.audio-stream-link:hover {
-    transform: translateY(-2px); /* Eleva ligeramente el enlace 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil 
-}
- */
 
 
 /* Estilos generales para el enlace de transmisión de audio */
@@ -1329,10 +1268,6 @@ input[type="text"] {
     box-shadow: none; /* Elimina la sombra para un efecto de "presión" */
 }
 
-/* Puedes añadir un estilo para el ícono de "pausa" si lo deseas, aunque JavaScript lo cambia */
-/* Por ejemplo, si quieres que el ícono de pausa tenga un color diferente */
-/*
-.audio-stream-link .fa-pause-circle {
-    color: #F44336; // Rojo para el ícono de pausa
+.row {
+  text-align: justify;
 }
-*/
