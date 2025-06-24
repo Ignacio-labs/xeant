@@ -37,6 +37,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
+
+    <!-- estilos en seccion temporal, añadirlo despues al style general -->  
     <style>
         /* Estilos Generales y para Escritorio (Base) */
         body {
@@ -45,7 +47,6 @@
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            /* Fondo degradado blanco */
             background: rgba(238, 238, 238, 0.6);
             margin: 0;
             padding: 20px; 
@@ -101,8 +102,7 @@
 
         .title-1 {
             color: white;
-            /* Texto aún más grande para escritorio */
-            font-size: 72px; /* Aumentado de 64px */
+            font-size: 72px;
             font-weight: bolder;
             margin: 0;
             line-height: 1.2;
@@ -114,8 +114,7 @@
 
         .title-2 {
             color: white;
-            /* Texto aún más grande para escritorio */
-            font-size: 32px; /* Aumentado de 28px */
+            font-size: 32px;
             font-weight: bold;
             margin: 0;
             opacity: 0.7;
@@ -131,8 +130,7 @@
             border-radius: 4px;
             position: absolute;
             left: 5%;
-            /* Posición ajustada para evitar superposición */
-            bottom: 85px; /* Ligeramente más arriba, ajustado para el texto */
+            bottom: 85px;
         }
 
         .elapsed {
@@ -146,8 +144,7 @@
             color: white;
             display: flex;
             position: absolute;
-            /* Posición ajustada para evitar superposición */
-            bottom: 130px; /* Ligeramente más arriba, ajustado para el texto */
+            bottom: 130px;
             left: 0;
             width: 100%;
             justify-content: center;
@@ -230,23 +227,20 @@
 
         .timetext {
             color: white;
-            /* Texto aún más grande para escritorio */
-            font-size: 18px; /* Aumentado de 16px */
+            font-size: 18px;
             position: absolute;
             opacity: 0.8;
             font-weight: bold;
         }
 
         .time_now {
-            /* Posición ajustada */
-            bottom: 80px; /* Ajustado para que esté sobre la barra */
+            bottom: 80px;
             left: 10%; 
             transform: translateX(-50%);
         }
 
         .time_full {
-            /* Posición ajustada */
-            bottom: 80px; /* Ajustado para que esté sobre la barra */
+            bottom: 80px;
             right: 10%; 
             transform: translateX(50%);
         }
@@ -303,16 +297,15 @@
         padding: 15px;
         border-radius: 12px;
         box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
-        /* Ajustar la altura para acomodar el nuevo diseño vertical si es necesario */
-        height: auto; /* Permite que la tarjeta se ajuste a su contenido */
-        min-height: 420px; /* Asegura una altura mínima si el contenido es muy poco */
+        height: auto;
+        min-height: 420px;
         margin-top: 0px;
     }
 
     .top {
         /* CAMBIO CLAVE: Cambiar a disposición vertical */
         flex-direction: column;
-        align-items: center; /* Centrar elementos horizontalmente en la columna */
+        align-items: center;
         gap: 10px;
         margin-bottom: 10px;
     }
@@ -451,7 +444,7 @@
 							<li class="has-dropdown active"><a href="radio.html"><s>SINTONIZA</s></a>
 								<ul class="dropdown">
 									<li><a>XEANT</a></li>
-									<li><a href="radio.html">PROGRAMACION TENEK, NÁHUATL, PAME, XI’OI</a></li>
+									<li><a href="radio.html">PROGRAMACION TENEK, NÁHUATL, XI’OI</a></li>
 								</ul>
 							</li>
 							<li><a href="contact.html">CONTACTANOS</a></li>
@@ -528,7 +521,7 @@
 
 
 
-<!-- data footer gral -->
+    <!-- datos de pie de pagina -->
 	<div class="container">
 		<footer id="fh5co-footer" role="contentinfo">
 			<div class="row">
@@ -540,7 +533,6 @@
 					<h4>Proyectos</h4>
 					<ul class="fh5co-footer-links">
 						<li><a href="#">Tenek</a></li>
-						<li><a href="#">Pame</a></li>
 						<li><a href="#">Nahuatl</a></li>
 						<li><a href="#">xi’ui</a></li>
 					</ul>
@@ -550,10 +542,9 @@
 					<h4>Links</h4>
 					<ul class="fh5co-footer-links">
 						<li><a href="#">Inicio</a></li>
-						<li><a href="#">Proyectos</a></li>
+						<li><a href="#">Conocenos</a></li>
 						<li><a href="#">Sintonizanos</a></li>
-						<li><a href="#">Blog</a></li>
-						<li><a href="#">Sobre nosotros</a></li>
+						<li><a href="#">Contactanos</a></li>
 					</ul>
 				</div>
 
@@ -573,9 +564,9 @@
 
 			<div class="row copyright">
 				<div class="col-md-12 text-center">
-					<p>
+					<p footer_center1>
 						<small class="block">&copy; All Rights Reserved.</small> 
-						<small class="block"> <a href="M" target="_blank"></a>  <a href="M" target="_blank"></a></small>
+						<small class="block">Creado con <a href="#" target="_blank">❤</a> por <a href="https://github.com/Ignacio-labs" target="_blank">Ignacio-labs</a> & <a href="https://github.com/SanchezAmairani" target="_blank">SanchezAmairani</a></small>
 					</p>
 					<p>
 						<ul class="fh5co-social-icons">
@@ -587,11 +578,13 @@
 					</p>
 				</div>
 			</div>
+
+
 		</footer>
 	</div>
+    <!-- fin -->
 
 
-<!-- END container -->
 </div>
 
     <div class="gototop js-top">
@@ -606,5 +599,11 @@
     <script src="js/sticky-kit.min.js"></script>
     <script src="js/main.js"></script>
 
+    <!--añadir controles de reproduccion para que se sincronice con la animacion-->
+    
+    
+
+
     </body>
+
 </html>
